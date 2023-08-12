@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+.border{ border: 10px solid}
+.nav {
+    overflow: hidden;
+}  
+    
+.nav a {
+    
+    padding: 14px 16px bold;
+    margin: auto 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav-item:hover{
+    
+    background-color: rgb(11, 8, 156);
+    padding: 10px;
+   
+}
+.logo{
+    height: 80px;
+    width: 130px;
+}
+
+.titulo1{
+    text-align: center;
+    margin: 25px 0 ;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+       
+ @media (max-width:768px) {
+    #info { 
+        width:90% !important;
+    }
+    .servicio-fila {
+        width:90% !important;
+        text-align:center;
+
+    }
+
+ }  
+
+
+
+section p{
+    padding: 10px;
+}
+
+footer{
+    height: 10vh;
+    width: 80%;
+    display: inline
+}
+
+footer h2{
+    display: inline;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
