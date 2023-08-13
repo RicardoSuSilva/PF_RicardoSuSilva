@@ -55,13 +55,13 @@ section p{
     padding: 10px;
 }
 
-.footer{
+footer{
     height: 10vh;
     width: 80%;
     display: inline
 }
 
-.footer h2{
+footer p{
     display: inline;
     margin: 25px;
     font-size: 20px;
