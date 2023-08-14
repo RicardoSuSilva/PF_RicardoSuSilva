@@ -1,0 +1,25 @@
+header {
+    
+    .border{ border: 10px solid}
+    .nav {
+    overflow: hidden;
+    }  
+    
+         a {
+    
+        padding: 14px 16px bold;
+        margin: auto 30px;
+        font-weight: bold;
+        font-size: 40px;
+         }
+    .nav-item:hover{
+    
+    background-color: $colorhover;
+    padding: 3px;
+   
+    }
+    
+    
+    
+
+}

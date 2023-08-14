@@ -1,1 +1,39 @@
-/*# sourceMappingURL=estilo.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+h1 {
+  text-align: center;
+  margin: 25px 0;
+}
+
+header .border {
+  border: 10px solid;
+}
+header .nav {
+  overflow: hidden;
+}
+header a {
+  padding: 14px 16px bold;
+  margin: auto 30px;
+  font-weight: bold;
+  font-size: 40px;
+}
+header .nav-item:hover {
+  background-color: rgb(11, 8, 156);
+  padding: 3px;
+}
+
+footer {
+  height: 10vh;
+  width: 80%;
+  display: inline p;
+  display-display: inline;
+  display-margin: 25px;
+  display-font-size: 20px;
+  display-font-weight: bold;
+}/*# sourceMappingURL=estilo.css.map */
