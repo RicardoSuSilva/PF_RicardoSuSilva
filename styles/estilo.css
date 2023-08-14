@@ -11,6 +11,22 @@ h1 {
   margin: 25px 0;
 }
 
+.carousel-inner {
+  max-height: 26rem;
+}
+
+@media (max-width: 768px) {
+  #info {
+    width: 90% !important;
+  }
+  .servicio-fila {
+    width: 90% !important;
+    text-align: center;
+  }
+}
+header .nav-item {
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
 header .border {
   border: 10px solid;
 }
@@ -27,7 +43,31 @@ header .nav-item:hover {
   background-color: rgb(11, 8, 156);
   padding: 3px;
 }
-
+header .nav-item1 {
+  animation-delay: 0.5s;
+}
+header .nav-item2 {
+  animation-delay: 1s;
+}
+header .nav-item3 {
+  animation-delay: 1.5s;
+}
+header .nav-item4 {
+  animation-delay: 2s;
+}
+header .nav-item5 {
+  animation-delay: 2.5s;
+}
+@keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 footer {
   height: 10vh;
   width: 80%;
