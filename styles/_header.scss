@@ -20,12 +20,12 @@ header {
     
     background-color: $colorhover;
     padding: 3px;
-   
+    border-radius: 2px;
     }
     
     @for $item from 1 through 5 {
         .nav-item#{$item} {
-            animation-delay: $item*0.5s;
+            animation-delay: $item*0.2s;
         }
 
     }  

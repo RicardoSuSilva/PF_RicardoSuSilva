@@ -1,12 +1,16 @@
-footer{
-    height: 10vh;
-    width: 80%;
-    display: inline
+.footer-content{
+     
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    height: 5vh;
+    width: 100%;
     
-    p{
-    display: inline;
-    margin: 25px;
-    font-size: 20px;
+}
+.footer-finish{   
+    
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
     font-weight: bold;
-    }
-}   
+}
