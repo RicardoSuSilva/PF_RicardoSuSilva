@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: $fontRoboto;
 
 }
@@ -15,16 +15,16 @@ h1{
     max-height: 26rem;
 }
        
- @media (max-width:768px) {
+ @media (max-width:1024px) {
     #info { 
-        width:90% !important;
+        width: auto!important;
     }
     .servicio-fila {
-        width:90% !important;
+        width: auto !important;
         text-align:center;
 
     }
-}
+} 
 
 .wrapper {
 

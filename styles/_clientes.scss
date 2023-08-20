@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.list {
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+ /* Estilos para el contenedor del carrusel */
+ .doblecarousel {
+    
+    width: auto;
+    height: 200px;
+    border: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    grid-auto-flow: column dense; 
+
+  }
+    
+  /* Estilos para las imágenes del carrusel */
+  .image {
+    width: auto;
+    height: 100px;
+    object-fit: contain; /* Ajusta la imagen al tamaño del elemento */
+  }
+
+  /* Estilos para la primera fila del carrusel, se mueve de derecha a izquierda */
+  .row-1 {
+    grid-row: 1; /* Se ubica en la primera fila del grid */
+    animation: slide-left 3s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+  }
+
+  /* Estilos para la segunda fila del carrusel, se mueve de izquierda a derecha */
+  .row-2 {
+    grid-row: 2; /* Se ubica en la segunda fila del grid */
+    animation: slide-right 3s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+  }
+
+  /* Animación que desplaza las imágenes hacia la izquierda */
+  @keyframes slide-left {
+    from {
+      transform: translateX(0); /* Posición inicial sin desplazamiento */
+    }
+    to {
+      transform: translateX(-100px); /* Posición final con un desplazamiento de -150px (el ancho de una imagen) */
+    }
+  }
+
+  /* Animación que desplaza las imágenes hacia la derecha */
+  @keyframes slide-right {
+    from {
+      transform: translateX(0); /* Posición inicial sin desplazamiento */
+    }
+    to {
+      transform: translateX(100px); /* Posición final con un desplazamiento de 150px (el ancho de una imagen) */
+    }
+  }
