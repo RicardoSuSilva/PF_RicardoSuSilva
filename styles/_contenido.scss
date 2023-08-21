@@ -16,7 +16,7 @@ h1{
     max-height: 26rem;
 }
        
- @include media-up(lg) {
+ @media (max-width:540px) {
     
     #info { 
         width: auto!important;
@@ -40,5 +40,46 @@ h1{
 
 }
 
+.container1 {
 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    
+    grid-template-areas: 
+      "imagen1 texto1"
+      "texto2 imagen2";
+
+}
+
+  
+.imagen1 .imagen2{
+
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+
+}
+
+.imagen1 {
+
+    grid-area: imagen1;
+}
+
+.imagen2 {
+
+    grid-area: imagen2;
+}
+
+.texto1 {
+
+    grid-area: texto1;
+    
+}
+
+.texto2 {
+    
+    grid-area: texto2;
+    ;
+}
   
