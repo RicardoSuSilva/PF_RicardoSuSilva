@@ -22,7 +22,7 @@ header {
     padding: 3px;
     border-radius: 2px;
     }
-    @include media-up(lg) { 
+    @include media-up(md) { 
         #menu { 
             width: auto; 
 

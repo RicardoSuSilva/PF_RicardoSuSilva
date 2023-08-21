@@ -27,37 +27,37 @@
   .image {
     width: auto;
     height: 80px;
-    object-fit: contain; /* Ajusta la imagen al tamaño del elemento */
+    object-fit: contain; 
   }
 
-  /* Estilos para la primera fila del carrusel, se mueve de derecha a izquierda */
+  /* Estilos para la 1erafila del carrusel*/
   .row-1 {
-    grid-row: 1; /* Se ubica en la primera fila del grid */
-    animation: slide-left 3s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+    grid-row: 1; 
+    animation: slide-left 3s linear infinite; 
   }
 
-  /* Estilos para la segunda fila del carrusel, se mueve de izquierda a derecha */
+  /* Estilos para la 2dafila del carrusel*/
   .row-2 {
-    grid-row: 2; /* Se ubica en la segunda fila del grid */
-    animation: slide-right 4s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+    grid-row: 2; 
+    animation: slide-right 4s linear infinite; 
   }
 
   /* Animación que desplaza las imágenes hacia la izquierda */
   @keyframes slide-left {
     from {
-      transform: translateX(0); /* Posición inicial sin desplazamiento */
+      transform: translateX(0); 
     }
     to {
-      transform: translateX(-100px); /* Posición final con un desplazamiento de -100px (el ancho de una imagen) */
+      transform: translateX(-100px); 
     }
   }
 
   /* Animación que desplaza las imágenes hacia la derecha */
   @keyframes slide-right {
     from {
-      transform: translateX(0); /* Posición inicial sin desplazamiento */
+      transform: translateX(0); 
     }
     to {
-      transform: translateX(100px); /* Posición final con un desplazamiento de 100px (el ancho de una imagen) */
+      transform: translateX(100px);
     }
   }

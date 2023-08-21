@@ -119,55 +119,38 @@ header .nav-item5 {
   width: auto;
   height: 80px;
   -o-object-fit: contain;
-     object-fit: contain; /* Ajusta la imagen al tamaño del elemento */
+     object-fit: contain; 
 }
 
 /* Estilos para la primera fila del carrusel, se mueve de derecha a izquierda */
 .row-1 {
-  grid-row: 1; /* Se ubica en la primera fila del grid */
-  animation: slide-left 3s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+  grid-row: 1; 
+  animation: slide-left 3s linear infinite; 
 }
 
 /* Estilos para la segunda fila del carrusel, se mueve de izquierda a derecha */
 .row-2 {
-  grid-row: 2; /* Se ubica en la segunda fila del grid */
-  animation: slide-right 4s linear infinite; /* Se anima con una duración de 10 segundos, una velocidad constante y un ciclo infinito */
+  grid-row: 2; 
+  animation: slide-right 4s linear infinite; 
 }
 
 /* Animación que desplaza las imágenes hacia la izquierda */
 @keyframes slide-left {
   from {
-    transform: translateX(0); /* Posición inicial sin desplazamiento */
+    transform: translateX(0); 
   }
   to {
-    transform: translateX(-100px); /* Posición final con un desplazamiento de -100px (el ancho de una imagen) */
+    transform: translateX(-100px); 
   }
 }
 /* Animación que desplaza las imágenes hacia la derecha */
 @keyframes slide-right {
   from {
-    transform: translateX(0); /* Posición inicial sin desplazamiento */
+    transform: translateX(0); 
   }
   to {
-    transform: translateX(100px); /* Posición final con un desplazamiento de 100px (el ancho de una imagen) */
+    transform: translateX(100px); 
   } 
-}
-
-.contacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
-    grid-gap: 20px; /* Espacio de 20 píxeles entre columnas */
-    grid-template-areas:"form""maps"; /* Nombres de las áreas */
-
-  
-.form {
-    grid-area: form; /* Colocar el formulario en el área "form" */
-  }
-  
-.maps { 
-    grid-area: maps; /* Colocar la imagen en el área "image" */
-  }  
-
 }
 
 .footer-content {

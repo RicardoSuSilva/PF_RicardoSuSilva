@@ -1,19 +1,24 @@
+
 .contacto {
 
+    height: 40vh;
+    margin: 0%;
     display: grid;
-    grid-template-columns: col-6 col-6; /* Dos columnas de igual tamaño */
-    grid-gap: 20px; /* Espacio de 20 píxeles entre columnas */
-    grid-template-areas:"form""maps"; /* Nombres de las áreas */
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+    grid-template-areas:"form maps";
+
   }
   
 .form {
 
-    grid-area: form; /* Colocar el formulario en el área "form" */
-  }
-  
+    grid-area: form; 
+    
+  } 
+
 .maps {
 
-    grid-area: maps; /* Colocar la imagen en el área "image" */
+    grid-area: maps;
   }
 
   
