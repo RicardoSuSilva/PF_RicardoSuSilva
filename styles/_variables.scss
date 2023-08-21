@@ -11,11 +11,10 @@ $breakpoints: (
     xl : 1280px
 );
 
-@mixin media-up($breakpoints){
-    @media screen and (min-width: map-get($breakpoints, $breakpoints)) {
-        
-    }
-
+@mixin media-up($breakpoint){
+    
 }
+    
+        
 
 

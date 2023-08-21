@@ -16,7 +16,7 @@ h1{
     max-height: 26rem;
 }
        
- @include media-up(md) {
+ @include media-up(lg) {
     
     #info { 
         width: auto!important;
