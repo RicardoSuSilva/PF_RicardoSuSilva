@@ -1,25 +1,18 @@
 
-.contacto {
 
-    height: 40vh;
-    margin: 0%;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr;
-    grid-gap: 10px; 
-    grid-template-areas:"form maps";
+
+
+
+
+
+
+
+
+
+/*@include media-up(lg) {
+  .contacto {
+    flex-direction: column;
 
   }
-  
-.form {
 
-    grid-area: form; 
-    
-  } 
-
-.maps {
-
-    grid-area: maps;
-  }
-
-  
+} 
