@@ -19,10 +19,10 @@
     <header>    
      <!--menu navegable responsive-->          
 
-                <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+                <nav class="navbar navbar-expand-md navbar-dark bg-primary">
                     <div class="container-fluid">
                           <a class="navbar-brand" href="#">
-                            <img src="../assets/img/suconsultores.jpg" alt="logo" width="100" height="80" >
+                            <img src="../assets/img/suconsultores.jpg" alt="logo" width="80" height="60" >
                           </a>
         <!--boton responsive-->                  
                     <button class="navbar-toggler" type="button"
@@ -33,7 +33,7 @@
                     </button>
         <!--menu barra navegable -->
                 <div class="collapse navbar-collapse" id="menu" >     
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item nav-item1">
                     <a href="../index.html" class="nav-link active">Inicio </a>
                     </li>
@@ -57,35 +57,29 @@
     <!--formulario de contacto-->   
         <h1>Contáctanos para mayor información </h1>
         
-        <section id="contact" class="contact">
-                <div class="container-fluid" >
-                  
-                  <div class="row">
-                    <div class="col col-lg-6">
+        <section>
+               <div class="contacto" >
+                                     
+                  <div class="form">
                       <form action="">
                         <input class="form-control" type="text" placeholder="Nombre y Apellido" />
                         <input class="form-control" type="email" placeholder="Email" />
                         <input class="form-control" type="text" placeholder="Teléfono" />
                         <input class="form-control" type="text" placeholder="Dirección"/>
-                        <textarea  
-                          class="form-control"
-                          name=""
-                          id=""
-                          cols="30"
-                          rows="10"
-                          placeholder="Mensaje"
-                        ></textarea>
+                        <textarea class="form-control" name="" id="" cols="30" rows="10"
+                          placeholder="Mensaje"></textarea>
                       </form>
                       <button>
                         <button type="submit" class="btn btn-primary">Enviar Mensaje
                       </button>
                     </div>
 
-                 <!--mapa de ubicacion google map-->
-                    <div class="col col-md-6 justify-content-center">
+                 <!--mapa de ubicacion iframe google map-->
+                <div class="maps">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.613723374393!2d-64.19654176105098!3d-31.369636974390335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432998662850893%3A0xde3653f3bfcac69c!2sSU%20CONSULTORES!5e0!3m2!1ses-419!2sar!4v1692493255793!5m2!1ses-419!2sar" 
-                    width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
-                    </div>
+                    width="350" height="350" style="border: 0"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                   </div>
+               </div>
         </section>
         <footer>
             <p class="footer-content"> Siguenos en nuestras redes: 

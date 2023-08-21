@@ -1,0 +1,19 @@
+.contacto {
+
+    display: grid;
+    grid-template-columns: col-6 col-6; /* Dos columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio de 20 píxeles entre columnas */
+    grid-template-areas:"form""maps"; /* Nombres de las áreas */
+  }
+  
+.form {
+
+    grid-area: form; /* Colocar el formulario en el área "form" */
+  }
+  
+.maps {
+
+    grid-area: maps; /* Colocar la imagen en el área "image" */
+  }
+
+  

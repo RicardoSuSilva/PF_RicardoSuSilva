@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+       
     font-family: $fontRoboto;
 
 }
@@ -12,10 +12,12 @@ h1{
 }
 
 .carousel-inner{
+
     max-height: 26rem;
 }
        
- @media (max-width:1024px) {
+ @include media-up(lg) {
+    
     #info { 
         width: auto!important;
     }
@@ -37,3 +39,6 @@ h1{
 
 
 }
+
+
+  

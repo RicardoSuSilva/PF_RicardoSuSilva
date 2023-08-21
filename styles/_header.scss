@@ -22,9 +22,9 @@ header {
     padding: 3px;
     border-radius: 2px;
     }
-    @media (max-width:1024px) { 
+    @include media-up(lg) { 
         #menu { 
-            width: 100% ; 
+            width: auto; 
 
     }}
 
