@@ -1,5 +1,5 @@
-#Ignorar wireframe, css,scss
-/wireframe
+#Ignorar css,scss
+
 /css
 /scss
 /backupstyle
